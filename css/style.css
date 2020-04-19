@@ -57,11 +57,21 @@ h2 {
     /*padding: 0; */
 }
 /* main content & works*/
+#works {
+    background-color: #FBF3E8;
+    height: 1000px;
+}
+
 .work-options {
     font-family: 'Arapey';
     text-align: center;
     color: black;
     padding: 5%;
+}
+
+.thumbnails {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .tag1 {
@@ -70,6 +80,35 @@ h2 {
 
 .tag2 {
     padding: 2%;
+}
+
+/* work thumbnails*/
+.thumbnails {
+    text-align: center;
+}
+
+.project1 {
+    height: 300px;
+    width: auto;
+    padding: 2%;
+}
+
+.project2 {
+    height: 300px;
+    width: auto;
+    padding: 2%;
+}
+
+.project3 {
+    height: 300px;
+    width: auto;
+    padding: 2%;
+}
+
+.project4 {
+    height: 300px;
+    width: auto;
+    padding: 2%;    
 }
 
 /* footer */
