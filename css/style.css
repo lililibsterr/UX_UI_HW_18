@@ -1,6 +1,5 @@
 /*header menu*/
 #navigation {
-    width:100%;
     height:80px;
     padding:1%;
     display:flex;
@@ -53,7 +52,7 @@ h2 {
 .heroImg {
     height:300px;
     background-color: #2071AF;
-    width: 120%;
+    width: 100%;
     /*padding: 0; */
 }
 /* main content & works*/
@@ -69,11 +68,6 @@ h2 {
     padding: 5%;
 }
 
-.thumbnails {
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
 .tag1 {
     padding: 2%;
 }
@@ -84,31 +78,69 @@ h2 {
 
 /* work thumbnails*/
 .thumbnails {
-    text-align: center;
+    position: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project1 {
-    height: 300px;
+    /* position: inline-block; */
+    height: 518px;
     width: auto;
-    padding: 2%;
+    transform: scale(.5);
+    /* padding: 2%; */
+    grid-area: hover;
+    transition: 0.3s;
+    background: url(../images/Web\ 1920\ –\ 1.jpg) no-repeat;
+}
+/* hover state */
+.project1:hover {
+    background: url(../images/Web\ 1920\ –\ 4.jpg) no-repeat;
+    /* box-shadow: 3px 3px; */
 }
 
 .project2 {
-    height: 300px;
+    height: 518px;
     width: auto;
-    padding: 2%;
+    transform: scale(.5);
+    /* padding: 2%; */
+    grid-area: hover;
+    transition: 0.3s;
+    background: url(../images/Web\ 1920\ –\ 2.jpg) no-repeat;
+}
+
+.project2:hover {
+    background: url(../images/Web\ 1920\ –\ 5.jpg) no-repeat;
 }
 
 .project3 {
-    height: 300px;
+    /* position: inline-block; */
+    height: 518px;
     width: auto;
-    padding: 2%;
+    transform: scale(.5);
+    /* padding: 2%; */
+    grid-area: hover;
+    transition: 0.3s;
+    background: url(../images/Web\ 1920\ –\ 3.jpg) no-repeat;
+}
+
+.project3:hover {
+    background: url(../images/Web\ 1920\ –\ 6.jpg) no-repeat;
 }
 
 .project4 {
-    height: 300px;
+    /* position: inline-block; */
+    height: 518px;
     width: auto;
-    padding: 2%;    
+    transform: scale(.5);
+    /* padding: 2%; */
+    grid-area: hover;
+    transition: 0.3s;
+    background: url(../images/Web\ 1920\ –\ 1.jpg) no-repeat;
+}
+
+.project4:hover {
+    background: url(../images/Web\ 1920\ –\ 4.jpg) no-repeat;
 }
 
 /* footer */
