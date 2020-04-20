@@ -78,11 +78,13 @@ h2 {
 
 /* work thumbnails*/
 .thumbnails {
-    /* position: inline-block; */
+    /* position: relative; */
+    /* height: 800px;
+    width: 75%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */ */
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 600px 600px;
     grid-template-columns: 100px 1fr 1fr 100px;
     grid-template-areas: 
     ". project1 project2 ."
@@ -90,10 +92,13 @@ h2 {
 }
 
 .project1 {
-    /* position: inline-block; */
+    box-sizing: border-box;
     height: 518px;
     width: auto;
     transform: scale(.5);
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
     /* padding: 2%; */
     grid-area: project1;
     transition: 0.3s;
@@ -106,10 +111,11 @@ h2 {
 }
 
 .project2 {
+    box-sizing: border-box;
     height: 518px;
     width: auto;
     transform: scale(.5);
-    /* padding: 2%; */
+    padding: 2%;
     grid-area: project2;
     transition: 0.3s;
     background: url(../images/Web\ 1920\ –\ 2.jpg) no-repeat;
@@ -121,10 +127,11 @@ h2 {
 
 .project3 {
     /* position: inline-block; */
+    box-sizing: border-box;
     height: 518px;
     width: auto;
     transform: scale(.5);
-    /* padding: 2%; */
+    padding: 2%;
     grid-area: project3;
     transition: 0.3s;
     background: url(../images/Web\ 1920\ –\ 3.jpg) no-repeat;
@@ -136,10 +143,11 @@ h2 {
 
 .project4 {
     /* position: inline-block; */
+    box-sizing: border-box;
     height: 518px;
     width: auto;
     transform: scale(.5);
-    /* padding: 2%; */
+    padding: 2%;
     grid-area: project4;
     transition: 0.3s;
     background: url(../images/Web\ 1920\ –\ 1.jpg) no-repeat;
