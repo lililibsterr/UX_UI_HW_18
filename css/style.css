@@ -58,7 +58,7 @@ h2 {
 /* main content & works*/
 #works {
     background-color: #FBF3E8;
-    height: 1000px;
+    height: 900px;
 }
 
 .work-options {
@@ -78,15 +78,11 @@ h2 {
 
 /* work thumbnails*/
 #thumbnails {
-    /* position: relative; */
-    /* 
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto; */
-    margin: 0px 100px 0px 100px;
+    /* margin: 0px 150px 0px 150px; */
     display: grid;
+    justify-content: center;
     grid-template-rows: 300px 300px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 300px 300px;
     grid-template-areas: 
     "project1 project2"
     "project3 project4";
@@ -96,73 +92,68 @@ h2 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin: 5px; */
+    margin: 20px;
+    /* box-shadow: 3px 3px rgb(0, 0, 0, 0.5); */
     cursor: pointer;
     display: grid;
 }
 
-.project1 {
-    box-sizing: border-box;
-    height: 518px;
-    width: 588px;
-    transform: scale(.5);
+#project1 {
     padding: 2%;
     grid-area: project1;
     transition: 0.3s;
-    background: url(../images/Web\ 1920\ –\ 1.jpg) no-repeat;
+    background: url(../images/Project1.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
 /* hover state */
-.project1:hover {
-    background: url(../images/Web\ 1920\ –\ 4.jpg) no-repeat;
-    /* box-shadow: 3px 3px; */
+#project1:hover {
+    background: url(../images/Project1title.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project2 {
-    box-sizing: border-box;
-    height: 518px;
-    width: 588px;
-    transform: scale(.5);
+#project2 {
     padding: 2%;
     grid-area: project2;
     transition: 0.3s;
-    background: url(../images/Web\ 1920\ –\ 2.jpg) no-repeat;
+    background: url(../images/Project2.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project2:hover {
-    background: url(../images/Web\ 1920\ –\ 5.jpg) no-repeat;
+#project2:hover {
+    background: url(../images/Project2title.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project3 {
+#project3 {
     /* position: inline-block; */
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     height: 518px;
-    width: 588px;
-    transform: scale(.5);
+    width: 588px; */
+    /* transform: scale(.5); */
     padding: 2%;
     grid-area: project3;
     transition: 0.3s;
-    background: url(../images/Web\ 1920\ –\ 3.jpg) no-repeat;
+    background: url(../images/Project3.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project3:hover {
-    background: url(../images/Web\ 1920\ –\ 6.jpg) no-repeat;
+#project3:hover {
+    background: url(../images/Project3title.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project4 {
-    /* position: inline-block; */
-    box-sizing: border-box;
-    height: 518px;
-    width: 588px;
-    transform: scale(.5);
+#project4 {
     padding: 2%;
     grid-area: project4;
     transition: 0.3s;
-    background: url(../images/Web\ 1920\ –\ 1.jpg) no-repeat;
+    background: url(../images/Project1.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
-.project4:hover {
-    background: url(../images/Web\ 1920\ –\ 4.jpg) no-repeat;
+#project4:hover {
+    background: url(../images/Project1title.jpg) no-repeat;
+    background-size: 260px 260px;
 }
 
 /* footer */
