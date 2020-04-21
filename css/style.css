@@ -47,6 +47,7 @@
 
 h2 {
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .heroImg {
@@ -98,6 +99,11 @@ h2 {
     display: grid;
 }
 
+h3 {
+    font-family: 'Arapey';
+    color: black;
+}
+
 #project1 {
     padding: 2%;
     grid-area: project1;
@@ -143,6 +149,7 @@ h2 {
     background-size: 260px 260px;
 }
 
+/* Will replace with new project */
 #project4 {
     padding: 2%;
     grid-area: project4;
@@ -170,14 +177,14 @@ h2 {
 
 .social-media {
     position: absolute;
-    right:0;
+    right:50px;
     letter-spacing: 0em;
     font-family: 'Open Sans';
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
     /* letter-spacing: .10em; */
-    padding: 1%;
+    padding: 2%;
 }
 
 .menu2 {
@@ -185,4 +192,23 @@ h2 {
     text-decoration: none;
     cursor: pointer;
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #thumbnails {
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-template-columns: 300px;
+        grid-template-areas: 
+        "project1"
+        "project2"
+        "project3"
+        "project4";
+    }
+
+    #works {
+        height: 1500px;
+    }
+
+    .footer-note {
+        margin-left: 0px;
 }
