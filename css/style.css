@@ -97,11 +97,14 @@ h2 {
     /* box-shadow: 3px 3px rgb(0, 0, 0, 0.5); */
     cursor: pointer;
     display: grid;
+    position: relative;
 }
 
-h3 {
-    font-family: 'Arapey';
-    color: black;
+h4 {
+    position: absolute;
+    top: 250px;
+    font-family: 'open sans';
+    font-size: 12px;
 }
 
 #project1 {
