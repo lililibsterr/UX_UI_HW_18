@@ -100,6 +100,17 @@ h2 {
     position: relative;
 }
 
+.thumbnails2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    /* box-shadow: 3px 3px rgb(0, 0, 0, 0.5); */
+    cursor: pointer;
+    display: grid;
+    position: relative;
+}
+
 h4 {
     position: absolute;
     top: 250px;
@@ -166,6 +177,31 @@ h4 {
     background-size: 260px 260px;
 }
 
+/* INTERIOR */
+#Bellagio {
+    padding: 2%;
+    grid-area: project1;
+    transition: 0.3s;
+    background: url(../images/Bellagio1.jpg) no-repeat;
+    background-size: 260px 260px;
+}
+
+#RWHK {
+    padding: 2%;
+    grid-area: project1;
+    transition: 0.3s;
+    background: url(../images/RWHK1.jpg) no-repeat;
+    background-size: 260px 260px;
+}
+
+#FSPB {
+    padding: 2%;
+    grid-area: project1;
+    transition: 0.3s;
+    background: url(../images/FSPB1.jpg) no-repeat;
+    background-size: 260px 260px;
+}
+
 /* footer */
 #footer {
     display: flex;
@@ -214,4 +250,4 @@ h4 {
 
     .footer-note {
         margin-left: 0px;
-}
+}}
